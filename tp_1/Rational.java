@@ -55,7 +55,7 @@ class Rational {
     	this.num=num;
 	this.den=den;
     }
-    public Rational mult(Rational a, Rational b){
+    public static Rational mult(Rational a, Rational b){
     	Rational c = new Rational(1,1);
 	c.setnumden(a.num*b.num,a.den*b.den);
 	return c;

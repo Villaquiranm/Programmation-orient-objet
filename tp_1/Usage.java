@@ -21,7 +21,7 @@ public class Usage {
              Rational c=new Rational(20,5);
              System.out.println(c.toString());
              Rational d=null;
-	     d=c.mult(a,b);
+	     d=Rational.mult(a,b);
              System.out.println(d.toString());
              }
                                                }
